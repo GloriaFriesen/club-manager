@@ -1,28 +1,85 @@
-# ClubManager
+# Club Manager
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.2.
+#### _By Gloria Friesen_
 
-## Development server
+### Social Club Management Web Application
+Current Version: 1.0 - 05.12.2017
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Description
 
-## Code scaffolding
+Web based social club web application using Angular2 framework. Users are able to view club members. Administrators are able to add, edit, and delete members.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
+### Intended Users
 
-## Build
+Club members and administrators.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+## Installation/Setup
 
-## Running unit tests
+* In the terminal, run:
+  * `$ git clone <https://github.com/GloriaFriesen/club-manager>`
+  * `$ cd club-manager`
+  * `$ npm install`
+  * `$ bower install`
+  * `$ ng serve`
+* In your browser, go to [http://localhost:4200](http://localhost:4200)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Preparations
 
-## Running end-to-end tests
+#### Stuff it needs:
+- [ ] member properites
+  - [ ] name
+  - [ ] role
+  - [ ] image
+  - [ ] join date
+  - [ ] contact info
+- [ ] list all members
+- [ ] member detail page
+- [ ] about page
+- [ ] database (firebase)
+- [ ] filter members with custom pipe
+- [ ] admin page
+  - [ ] add members
+  - [ ] edit members
+  - [ ] delete members
+- [ ] member service
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+#### Stuff it wants:
+- [ ] styling
+- [ ] awesome theme
+- [ ] calendar of events (static)
+- [ ] deployed to firebase
 
-## Further help
+#### Stuff it would love:
+- [ ] message board
+- [ ] track stats of members
+- [ ] make calendar of events interactive
+  - [ ] users can add events
+  - [ ] admin can edit and delete events
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Components Needed
+|Component|Path|Service|Function|
+|---|---|---|---|
+|Welcome|' '|No|home/splash page|
+|About|'about'|No|Description of club|
+|MemberList|'members'|Yes|List all members|
+|MemberDetail|'members:id'|Yes|Display more detailed information about individual member|
+|Admin|'admin'|Yes|List all members with additional actions: add, edit, delete|
+|EditMember|'admin'|Yes|Inside admin component, edit form, delete button|
+
+## Known Bugs
+We'll see.
+
+## Support and contact details
+Questions? Concerns? Suggestions? Reach out to me via github: <https://github.com/GloriaFriesen>.
+
+## Technologies Used
+* _Angular2.js_
+* _TypeScript_
+* _HTML_
+* _CSS_
+* _npm_
+* _Bower_
+
+## License
+This software is licensed under the MIT license.
+Copyright (c) 2017 Gloria Friesen.
