@@ -13,6 +13,27 @@ Web based social club web application using Angular2 framework. Users are able t
 
 Club members and administrators.
 
+## Database Configuration
+
+This application is built to work with a Firebase database. If you'd like to enjoy my website, please follow these instructions to create a Firebase project and credentials.
+* Go to [Firebase](https://firebase.google.com/) and create an account (if you don't have one already).
+* Create a remote database for the application through Firebase's website.
+  * Select 'Create a New Project' from the dashboard.
+  * Select 'Add Firebase to your web app'
+  * A pop-up modal window will be generated. It will include your credentials. Keep the credentials handy.
+* In the terminal, create a file to house your Firebase credentials `$ touch src/app/api-keys.ts`
+* In api-keys.ts file, add the following code:
+```
+  export var masterFirebaseConfig = {
+    apiKey: "xxxx",
+    authDomain: "xxxx.firebaseapp.com",
+    databaseURL: "https://xxxx.firebaseio.com",
+    storageBucket: "xxxx.appspot.com",
+    messagingSenderId: "xxxx"
+  };
+```
+* Replace 'xxxx' with the project credentials from Firebase.
+
 ## Installation/Setup
 
 * In the terminal, run:
