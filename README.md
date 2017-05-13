@@ -33,6 +33,21 @@ This application is built to work with a Firebase database. If you'd like to enj
   };
 ```
 * Replace 'xxxx' with the project credentials from Firebase.
+* In your Firebase project, change the Rules to allow reading and writing to the database
+```
+  {
+    "rules": {
+      ".read": "true",
+      ".write": "true"
+    }
+  }
+```
+* Import seed data from the included sample-players.json file
+  * Visit your Firebase Console and select your project's database.
+  * Click on the Database option in the left-hand navigational menu.
+  * Select the 3 vertical dots on the right-hand side of the grey bar with your database URL on it. (It's right next to the + and - buttons). This should bring up a small menu.
+  * Select Import JSON from this menu. This will result in a modal window prompting you to upload a file.
+  * Locate the sample-players.json file from the project, and upload it.
 
 ## Installation/Setup
 

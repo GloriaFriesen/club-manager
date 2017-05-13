@@ -1,0 +1,52 @@
+{ "players": [{
+    "name": "Susan B. Agony",
+    "position": "Blocker",
+    "image": "1.jpg",
+    "joinDate": "2014"
+  }, {
+    "name": "David Owie",
+    "position": "Jammer",
+    "image": "2.jpeg",
+    "joinDate": "2017"
+  } , {
+    "name": "Roller Eclipse",
+    "position": "Jammer",
+    "image": "3.jpg",
+    "joinDate": "2015"
+  } , {
+    "name": "Pain Goodall",
+    "position": "Coach",
+    "image": "4.jpg",
+    "joinDate": "2011"
+  }, {
+    "name": "Nancy Raygun",
+    "position": "Coach",
+    "image": "5.jpg",
+    "joinDate": "2013"
+  }, {
+    "name": "Wikibleedia",
+    "position": "Blocker",
+    "image": "6.jpg",
+    "joinDate": "2016"
+  }, {
+    "name": "Dora the Destroyer",
+    "position": "Blocker",
+    "image": "7.jpg",
+    "joinDate": "2016"
+  }, {
+    "name": "Smack Galifianakis",
+    "position": "Blocker",
+    "image": "8.jpg",
+    "joinDate": "2015"
+  }, {
+    "name": "Ruthless Bader Ginsberg",
+    "position": "Jammer",
+    "image": "9.jpg",
+    "joinDate": "2014"
+  }, {
+    "name": "Huey Lewis and the Bruise",
+    "position": "Blocker",
+    "image": "10.jpg",
+    "joinDate": "2017"
+  }]
+}
