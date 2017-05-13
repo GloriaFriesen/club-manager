@@ -26,12 +26,11 @@ Club members and administrators.
 ## Preparations
 
 #### Stuff it needs:
-- [ ] member properites
+- [ ] player properites
   - [ ] name
-  - [ ] role
+  - [ ] position
   - [ ] image
   - [ ] join date
-  - [ ] contact info
 - [ ] list all members
 - [ ] member detail page
 - [ ] about page
@@ -45,7 +44,7 @@ Club members and administrators.
 
 #### Stuff it wants:
 - [ ] styling
-- [ ] awesome theme
+- [x] awesome theme
 - [ ] calendar of events (static)
 - [ ] deployed to firebase
 

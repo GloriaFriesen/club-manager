@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { Player } from '../player.model';
 
 @Component({
   selector: 'app-player-list',
@@ -7,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PlayerListComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router){}
 
   ngOnInit() {
   }
 
+  goToDetailPage(clickedPlayer) {
+     this.router.navigate(['players', clickedPlayer.$key]);
+   };
 }

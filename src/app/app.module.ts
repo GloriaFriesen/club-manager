@@ -8,6 +8,7 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { AboutComponent } from './about/about.component';
 import { routing } from './app.routing';
 import { PlayerListComponent } from './player-list/player-list.component';
+import { PlayerDetailComponent } from './player-detail/player-detail.component';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { PlayerListComponent } from './player-list/player-list.component';
     WelcomeComponent,
     AboutComponent,
     PlayerListComponent,
+    PlayerDetailComponent,
   ],
   imports: [
     BrowserModule,
