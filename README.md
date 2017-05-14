@@ -62,21 +62,21 @@ This application is built to work with a Firebase database. If you'd like to enj
 ## Preparations
 
 #### Stuff it needs:
-- [ ] player properites
-  - [ ] name
-  - [ ] position
-  - [ ] image
-  - [ ] join date
-- [ ] list all members
-- [ ] member detail page
-- [ ] about page
-- [ ] database (firebase)
+- [x] player properites
+  - [x] name
+  - [x] position
+  - [x] image
+  - [x] join date
+- [x] list all members
+- [x] member detail page
+- [x] about page
+- [x] database (firebase)
 - [ ] filter members with custom pipe
 - [ ] admin page
   - [ ] add members
   - [ ] edit members
   - [ ] delete members
-- [ ] member service
+- [x] member service
 
 #### Stuff it wants:
 - [ ] styling
