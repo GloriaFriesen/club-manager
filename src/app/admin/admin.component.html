@@ -1,0 +1,22 @@
+<h3>Add New Player</h3>
+<div>
+  <label>Name:</label>
+  <input #newName>
+</div>
+<div>
+  <label>Position:</label>
+  <select #newPosition>
+    <option value="Jammer">Jammer</option>
+    <option value="Blocker">Blocker</option>
+    <option value="Coach">Coach</option>
+  </select>
+</div>
+<div>
+  <label>Image:</label>
+  <input #newImage placeholder="picture.jpg">
+</div>
+<div>
+  <label>Join Date:</label>
+  <input #newJoinDate type="number" min=2009 max=2017>
+</div>
+<button (click)="submitForm(newName.value, newPosition.value, newImage.value, newJoinDate.value); newName.value=''; newPosition.value=''; newImage.value=''; newJoinDate.value=''">Add</button>

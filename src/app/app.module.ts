@@ -12,6 +12,7 @@ import { routing } from './app.routing';
 import { PlayerListComponent } from './player-list/player-list.component';
 import { PlayerDetailComponent } from './player-detail/player-detail.component';
 import { masterFirebaseConfig } from './api-keys';
+import { AdminComponent } from './admin/admin.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -27,6 +28,7 @@ export const firebaseConfig = {
     AboutComponent,
     PlayerListComponent,
     PlayerDetailComponent,
+    AdminComponent,
   ],
   imports: [
     BrowserModule,

@@ -68,15 +68,15 @@ This application is built to work with a Firebase database. If you'd like to enj
   - [x] image
   - [x] join date
 - [x] list all members
-- [x] member detail page
+- [x] player detail page
 - [x] about page
 - [x] database (firebase)
-- [ ] filter members with custom pipe
+- [ ] filter players with custom pipe
 - [ ] admin page
-  - [ ] add members
-  - [ ] edit members
-  - [ ] delete members
-- [x] member service
+  - [ ] add players
+  - [ ] edit players
+  - [ ] delete players
+- [x] player service
 
 #### Stuff it wants:
 - [ ] styling
