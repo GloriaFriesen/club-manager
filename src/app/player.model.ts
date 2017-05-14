@@ -4,5 +4,5 @@ export class Player {
     public position: string,
     public image: string,
     public joinDate: string
-  )
+  ) { }
 }
