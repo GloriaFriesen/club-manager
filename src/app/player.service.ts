@@ -29,4 +29,9 @@ export class PlayerService {
                               image: localUpdatedPlayer.image,
                               joinDate: localUpdatedPlayer.joinDate});
   }
+
+  deletePlayer(localPlayerToDelete){
+    var playerEntryInFirebase = this.getPlayerById(localPlayerToDelete.$key);
+    playerEntryInFirebase.remove();
+  }
 }
