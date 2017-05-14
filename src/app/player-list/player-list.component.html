@@ -1,4 +1,12 @@
-<div *ngFor="let player of players | async" >
+<label>Filter by Position</label>
+  <select (change)="onPositionChange($event.target.value)">
+    <option value="allPlayers" selected="selected">All Players</option>
+    <option value="Jammer">Jammers</option>
+    <option value="Blocker">Blockers</option>
+    <option value="Coach">Coaches</option>
+  </select>
+
+<div *ngFor="let player of players | async | positionFilter:filterByPosition" >
   <h3 (click)="goToDetailPage(player)">{{player.name}}</h3>
   <div *ngIf="currentRoute === '/admin'">
     {{player.position}}

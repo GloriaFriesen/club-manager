@@ -71,11 +71,11 @@ This application is built to work with a Firebase database. If you'd like to enj
 - [x] player detail page
 - [x] about page
 - [x] database (firebase)
-- [ ] filter players with custom pipe
+- [x] filter players with custom pipe
 - [x] admin page
   - [x] add players
-  - [ ] edit players
-  - [ ] delete players
+  - [x] edit players
+  - [x] delete players
 - [x] player service
 
 #### Stuff it wants:

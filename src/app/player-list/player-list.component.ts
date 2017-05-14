@@ -13,6 +13,7 @@ import { FirebaseListObservable } from 'angularfire2/database';
 export class PlayerListComponent implements OnInit {
   players: FirebaseListObservable<any[]>;
   currentRoute: string = this.router.url;
+  filterByPosition: string = "allPlayers";
 
   constructor(private router: Router, private playerService: PlayerService) {
   }
@@ -24,4 +25,8 @@ export class PlayerListComponent implements OnInit {
   goToDetailPage(clickedPlayer) {
      this.router.navigate(['players', clickedPlayer.$key]);
    };
+
+   onPositionChange(optionFromMenu) {
+    this.filterByPosition = optionFromMenu;
+   }
 }
