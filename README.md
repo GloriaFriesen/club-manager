@@ -72,8 +72,8 @@ This application is built to work with a Firebase database. If you'd like to enj
 - [x] about page
 - [x] database (firebase)
 - [ ] filter players with custom pipe
-- [ ] admin page
-  - [ ] add players
+- [x] admin page
+  - [x] add players
   - [ ] edit players
   - [ ] delete players
 - [x] player service

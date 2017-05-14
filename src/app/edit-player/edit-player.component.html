@@ -1,0 +1,23 @@
+<h4>Edit Player</h4>
+
+<div>
+  <label>Name:</label>
+  <input [(ngModel)]="selectedPlayer.name">
+</div>
+<div>
+  <label>Position:</label>
+  <select [(ngModel)]="selectedPlayer.position">
+    <option value="Jammer">Jammer</option>
+    <option value="Blocker">Blocker</option>
+    <option value="Coach">Coach</option>
+  </select>
+</div>
+<div>
+  <label>Image:</label>
+  <input [(ngModel)]="selectedPlayer.image" placeholder="picture.jpg">
+</div>
+<div>
+  <label>Join Date:</label>
+  <input [(ngModel)]="selectedPlayer.joinDate" type="number" min=2009 max=2017>
+</div>
+<button (click)="beginUpdatingPlayer(selectedPlayer)">Update Player</button>
