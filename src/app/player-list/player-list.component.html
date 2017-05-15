@@ -6,10 +6,18 @@
     <option value="Coach">Coaches</option>
   </select>
 
-<div *ngFor="let player of players | async | positionFilter:filterByPosition" >
-  <h3 (click)="goToDetailPage(player)">{{player.name}}</h3>
-  <div *ngIf="currentRoute === '/admin'">
-    {{player.position}}
-    <app-edit-player [selectedPlayer]="player"></app-edit-player>
+<div class="row" *ngFor="let player of players | async | positionFilter:filterByPosition">
+  <div class="col-xs-6 col-md-3">
+    <div class="thumbnail">
+      <div class="caption">
+        <h3>{{player.name}}</h3>
+      </div>
+      <div (click)="goToDetailPage(player)">
+        <img src="../assets/images/{{player.image}}">
+      </div>
+      <div *ngIf="currentRoute === '/admin'">
+        <app-edit-player [selectedPlayer]="player"></app-edit-player>
+      </div>
+    </div>
   </div>
 </div>

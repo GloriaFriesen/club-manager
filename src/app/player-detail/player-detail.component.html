@@ -1,6 +1,8 @@
 <div class="image">
   <img src="./assets/images/{{(playerToDisplay | async)?.image}}">
 </div>
-{{(playerToDisplay | async)?.name}}
-{{(playerToDisplay | async)?.position}}
-{{(playerToDisplay | async)?.joinDate}}
+<div id="playerDetails">
+  <h2>Derby Name: {{(playerToDisplay | async)?.name}}</h2>
+  <h2>Position: {{(playerToDisplay | async)?.position}}</h2>
+  <h2>Playing with Derby Dinos Since: {{(playerToDisplay | async)?.joinDate}}</h2>
+</div>

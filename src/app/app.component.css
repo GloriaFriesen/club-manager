@@ -1,3 +1,24 @@
-#title {
-  text-align: center;
+h1 {
+  width: 100%;
+  background-color: black;
+  color: white;
+  margin-top: 0;
+  height: 150px;
+  padding-top: 50px;
+  font-size: 50px;
+  margin-bottom: 90px;
+}
+
+img {
+  float: left;
+  margin: 15px;
+}
+
+.navbar {
+  margin: 0;
+}
+
+h3 {
+  text-align: right;
+  margin-right: 15px;
 }
